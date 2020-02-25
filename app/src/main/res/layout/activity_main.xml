@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/editborder"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/text"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Name"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/editborder"
+        />
+    <EditText
+        android:id="@+id/text1"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Age"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/editborder"
+        />
+    <EditText
+        android:id="@+id/text2"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Class"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/editborder"
+        />
+
+    <EditText
+        android:id="@+id/text3"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Roll"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/editborder"
+        />
+
+    <Button
+        android:id="@+id/submitt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submitt"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn"
+
+        />
+
+</LinearLayout>
